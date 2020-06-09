@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d82c6c5e-53c8-41a1-903a-fb9c2f8a6670" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zzxg_server.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1ctPgiNyRhU1Zd8JJWwSK392MgE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,7 +37,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="I:/GZGC/workspaces/zzxg-gis-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -86,7 +83,8 @@
       <workItem from="1591345703549" duration="233000" />
       <workItem from="1591345996762" duration="2066000" />
       <workItem from="1591584428724" duration="10388000" />
-      <workItem from="1591605103543" duration="38000" />
+      <workItem from="1591605103543" duration="2286000" />
+      <workItem from="1591675278132" duration="1773000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1591345378835</created>
@@ -179,11 +177,31 @@
       <option name="project" value="LOCAL" />
       <updated>1591601866667</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="DOCKERFILE">
+      <created>1591605151645</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591605151645</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
@@ -199,14 +217,14 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2731" y="417" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1591346068813" />
-    <state x="2379" y="122" key="CommitChangelistDialog2" timestamp="1591601865868">
+    <state x="2379" y="122" key="CommitChangelistDialog2" timestamp="1591605150340">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2379" y="122" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1591601865868" />
-    <state x="2660" y="269" key="FileChooserDialogImpl" timestamp="1591349323806">
+    <state x="2379" y="122" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1591605150340" />
+    <state x="2660" y="269" key="FileChooserDialogImpl" timestamp="1591675310690">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2660" y="269" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1591349323806" />
+    <state x="2660" y="269" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1591675310690" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1591604892840">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -243,14 +261,18 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2383" y="170" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1591604434232" />
-    <state x="2472" y="261" key="Vcs.Push.Dialog.v2" timestamp="1591601872845">
+    <state x="2472" y="261" key="Vcs.Push.Dialog.v2" timestamp="1591605156255">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1591601872845" />
-    <state x="2572" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1591345996890">
+    <state x="2472" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1591605156255" />
+    <state x="2572" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1591675278178">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2572" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1591345996890" />
+    <state x="2572" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1591675278178" />
+    <state x="2674" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591605440229">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2674" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1591605440229" />
     <state x="2596" y="327" key="git4idea.merge.GitPullDialog" timestamp="1591346427006">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
